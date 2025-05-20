@@ -1,0 +1,121 @@
+body {
+    background-image: url('fondo2.jpg'); 
+    background-size: cover;
+    width: 100%;
+    color:black;
+}
+
+  img {
+     max-width: 100%;
+     height: 150px; 
+}  
+
+H1    {      
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: yellow;
+    text-align: center;
+}
+
+
+H4    {      
+    font-family: "Bungee", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: red;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+       font-family: "Modern No. 20", sans-serif;
+     color: black;
+     font-size: 20px;
+
+}
+
+.menudez {
+
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: blue;
+}
+
+.menudez > li {
+   
+    position: relative;
+    display: inline-block;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #2895EF;
+    box-shadow: 5px 3px 5px 1px #2895EF;
+}
+
+.menudez a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: red;
+    font-family: "Spicy Rice", serif;
+    font-weight: 600px;
+    font-style: normal;
+ }
+
+.contenedor {
+
+    display: flex;
+    position: 100px;
+    align-items: center;
+}
+
+ .krustaceo {
+     max-width: 100%;
+     height: 500px; 
+     margin-right: 10px;
+     margin: -45px -6px 1px;
+}
+
+ .Bob {
+     max-width: 100%;
+     height: 200px; 
+     margin-right: 10px;
+     margin: 201px 85px 2px;
+}
+
+
+ .menus {
+     max-width: 100%;
+     height: 125px; 
+     margin: 0px 0px 0px;
+}
+
+    .menu {
+      max-width: 1282px;
+      margin: -2px 102px 0px;
+      padding: 20px;
+      border: 5px solid #DAA520;
+      border-radius: 10px;
+      background-color: #F5F5DC;
+      display: flex;
+    }
+
+    .menu-item {
+        float: left;
+        height: 220px;
+        width: 220px;
+      margin: 15px 11px 0px;
+      background-color:#FFE4B5;
+      border: 2px dashed #FFD700;
+      border-radius: 10px;
+    }
+
+   .menu-item h2 {
+      color: #FF4500;
+      margin-bottom: 5px;
+    }
+    .price {
+      color: #009933;
+      font-weight: bold;
+    }
